@@ -1,0 +1,72 @@
+.footer {
+  padding: 114px 0 123px;
+  display: grid;
+  grid-area: footer;
+  grid-template-columns: 1fr minmax(auto, 940px) 1fr;
+  text-align: center;
+}
+
+.footer__title {
+  grid-column: 2 / 3;
+  font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+}
+.footer__text {
+  margin: 20px 0 30px;
+  grid-column: 2 / 3;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer__btn {
+  font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  grid-column: 2 / 3;
+  background: #070707;
+  justify-self: center;
+  width: 180px;
+  padding: 13px 0;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.footer__icons {
+  margin: 86px 0 46px;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  column-gap: 61px;
+}
+.footer__icon {
+}
+.footer__likes {
+  grid-column: 2 / 3;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+span {
+  font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media (max-width: 425px) {
+  .footer {
+    padding: 82px 30px 90px;
+  }
+
+  .footer__icons {
+    margin: 48px 0 49px;
+  }
+
+  .footer__btn {
+    font-family: "Gilroy-Bold", Arial, Helvetica, sans-serif;
+    grid-column: 2 / 3;
+    background: #070707;
+    justify-self: center;
+    width: 316px;
+    padding: 13px 0;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+}

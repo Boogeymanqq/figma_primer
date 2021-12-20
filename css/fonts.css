@@ -1,0 +1,21 @@
+@font-face {
+  /* font-family: 'Conv_Gilroy-ExtraBold'; */
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: local("☺"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"),
+    url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Gilroy-ExtraBold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  /* font-family: 'Conv_10177'; */
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/10177.eot");
+  src: local("☺"), url("../fonts/10177.woff") format("woff"),
+    url("../fonts/10177.ttf") format("truetype"),
+    url("../fonts/10177.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
